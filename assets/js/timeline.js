@@ -1,11 +1,10 @@
 $(document).ready(function () {
   var mySwiper = new Swiper(".swiper", {
     autoHeight: true,
-	calculateHeight:true,
-    autoplay: {
+    /*autoplay: {
       delay: 5000,
       disableOnInteraction: true
-    },
+    },*/
     speed: 1000,
     direction: "horizontal",
     navigation: {
@@ -39,11 +38,10 @@ $(document).ready(function () {
   
   var mySwiper1 = new Swiper(".swiper1", {
     autoHeight: true,
-	calculateHeight:true,
-    autoplay: {
+    /*autoplay: {
       delay: 5000,
       disableOnInteraction: true
-    },
+    },*/
     speed: 1000,
     direction: "horizontal",
     navigation: {
