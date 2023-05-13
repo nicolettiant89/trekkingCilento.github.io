@@ -1327,11 +1327,7 @@ input, select, textarea {
 				display:none;
 			}
 			
-			.image.featured {
-			display: flex-inline;
-			width: 50%;
-			margin: 0 0 2em 0;
-		}
+		
 		
 		.image.featured-full-resizable {
 			display: flex-inline;
@@ -1598,11 +1594,7 @@ input, select, textarea {
 				display:none;
 			}
 			
-			.image.featured {
-			display: flex-inline;
-			width: 50%;
-			margin: 0 0 2em 0;
-		}
+			
 		
 		.image.featured-full-resizable {
 			display: flex-inline;
