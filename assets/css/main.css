@@ -1329,7 +1329,7 @@ input, select, textarea {
 			
 			.image.featured {
 			display: flex-inline;
-			width: 20%;
+			width: 50%;
 			margin: 0 0 2em 0;
 		}
 		
@@ -1600,7 +1600,7 @@ input, select, textarea {
 			
 			.image.featured {
 			display: flex-inline;
-			width: 20%;
+			width: 50%;
 			margin: 0 0 2em 0;
 		}
 		
