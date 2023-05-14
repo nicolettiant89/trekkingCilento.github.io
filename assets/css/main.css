@@ -1890,7 +1890,7 @@ input, select, textarea {
 		.image.featured-full span {
 		  display: none;
 		  position: absolute;
-		  bottom: 0;
+		  /*bottom: 0;*/
 		  left: 0;
 		  right: 0;
 		  background: #333;
@@ -3320,29 +3320,27 @@ input, select, textarea {
 }
 
 /* Tooltip */
-.tooltip {
+.tooltipMain {
   position: relative;
   display: inline-block;
 }
 
-.tooltip .tooltiptext {
+.tooltipMain .tooltiptextMain {
   visibility: hidden;
-  width: 120px;
   background-color: #555;
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
+  bottom: 100%;
+  top: -26px;
   left: 50%;
-  margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
 }
 
-.tooltip .tooltiptext::after {
+.tooltipMain .tooltiptextMain::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -3353,7 +3351,8 @@ input, select, textarea {
   border-color: #555 transparent transparent transparent;
 }
 
-.tooltip:hover .tooltiptext {
+.tooltipMain:hover .tooltiptextMain {
   visibility: visible;
   opacity: 1;
+  
 }
