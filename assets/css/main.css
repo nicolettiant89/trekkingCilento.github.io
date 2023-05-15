@@ -77,6 +77,8 @@ input, select, textarea {
 	.set-pointer{
 		cursor: pointer;
 	}
+	
+	
 
 	html {
 		box-sizing: border-box;
@@ -201,7 +203,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section, article {
-		margin-bottom: 6em;
+		margin-bottom: 2em;
 	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
@@ -318,6 +320,8 @@ input, select, textarea {
 			width: 50%;
 			margin: 0 0 2em 0;
 		}
+		
+	
 
 		.row > * {
 			box-sizing: border-box;
@@ -1306,6 +1310,8 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+	
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1573,6 +1579,8 @@ input, select, textarea {
 
 		@media screen and (max-width: 360px) {
 
+			
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1874,7 +1882,6 @@ input, select, textarea {
 		
 		
 		
-		
 		.image.featured-medium img{
 			object-fit: contain;
 		}
@@ -1884,7 +1891,7 @@ input, select, textarea {
 		.image.featured-full {
 			display: flex-inline;
 			width: 100%;
-			margin: 0 0 2em 0;
+			margin: 0 0 1em 0;
 		}
 		
 		.image.featured-full span {
@@ -1917,6 +1924,24 @@ input, select, textarea {
 				margin: 0 auto;
 				width: auto;
 			}
+			
+		img.imageSmall {
+			 display: none;
+			 
+		}
+		
+		@media screen and (max-width: 736px) {
+
+	
+			img.imageSmall {
+				 display: block;
+				 
+			}
+			
+			img.imageFull{
+				display: none;
+			}
+		}
 
 /* Button */
 
@@ -2383,6 +2408,20 @@ input, select, textarea {
 		margin: 2em;
 
 	}
+	
+	
+	
+	@media screen and (max-width: 736px) {
+
+	
+			.infos{
+				background: linear-gradient(to bottom, rgb(255 255 255 / 50%), rgb(255 255 255 / 50%),rgb(245 241 274 / 70%),white);
+    			border-radius: 16px;
+		
+			}
+			
+			
+		}
 	
 
 	.box.post header {
@@ -3299,7 +3338,7 @@ input, select, textarea {
   list-style-type: none;
   padding-left: 1.5rem;
   margin-bottom: 0.5rem;
-  text-align: justify;
+  text-align: left;
   
 }
 

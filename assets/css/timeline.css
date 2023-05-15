@@ -4,7 +4,6 @@ div.containerTimeline::-webkit-scrollbar {
 
 .swiper-container-wrapper--timeline .swiper-slide {
   display: flex;
-  background: #fff;
   min-height: 300px;
   align-items: center;
   justify-content: center;
@@ -12,16 +11,23 @@ div.containerTimeline::-webkit-scrollbar {
   background: #eee;
   
 }
+
+.img01{
+   background-image: url(images/img01.jpeg);
+  
+}
+
 .swiper-container-wrapper--timeline .swiper-slide .containerTimeline {
   padding: 0;
   width: 100%;
-  
+
 }
 
 .removeOverflow{
   overflow:unset;
   
 }
+
 
 .swiper-container-wrapper--timeline .swiper-slide .title {
   font-size: 18px;
