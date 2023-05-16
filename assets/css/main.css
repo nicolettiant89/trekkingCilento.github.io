@@ -307,6 +307,7 @@ input, select, textarea {
 			width: 60%;
 			margin: 2em 2em 2em 2em;
 			max-height: -webkit-fill-available;
+			height: 90%;
 		}
 		
 		.image.featured-full-resizable {
