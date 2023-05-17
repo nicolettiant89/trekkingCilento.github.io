@@ -12,11 +12,6 @@ div.containerTimeline::-webkit-scrollbar {
   
 }
 
-.img01{
-   background-image: url(images/img01.jpeg);
-  
-}
-
 .swiper-container-wrapper--timeline .swiper-slide .containerTimeline {
   padding: 0;
   width: 100%;
@@ -27,7 +22,6 @@ div.containerTimeline::-webkit-scrollbar {
   overflow:unset;
   
 }
-
 
 .swiper-container-wrapper--timeline .swiper-slide .title {
   font-size: 18px;
