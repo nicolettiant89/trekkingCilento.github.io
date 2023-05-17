@@ -62,7 +62,7 @@ $(document).ready(function () {
       },
       slideChangeTransitionStart: function () {
         $(".containerTimeline1 .swiper-pagination-custom .swiper-pagination-switch").removeClass("active");
-        $(".containerTimeline1 .swiper-pagination-custom .swiper-pagination-switch").eq(mySwiper.realIndex).addClass("active");
+        $(".containerTimeline1 .swiper-pagination-custom .swiper-pagination-switch").eq(mySwiper1.realIndex).addClass("active");
       }
     }
   });
