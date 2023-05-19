@@ -16,14 +16,14 @@ function copyToClipboard(source) {
 function addSlideBachground(){
 	for(var i=1; i<=6; i++){
 		$('#path01_slide0'+i).css('background-image', 'url(\''+$('#path01_img0'+i).attr('src')+'\')');
-		$('#path01_slide0'+i).css('background-repeat', 'round');
-		$('#path01_slide0'+i).css('background-size', 'contain');
+		$('#path01_slide0'+i).css('background-repeat', 'no-repeat');
+		$('#path01_slide0'+i).css('background-size', 'cover');
 	}
 	
 	for(var i=1; i<=6; i++){
 		$('#path02_slide0'+i).css('background-image', 'url(\''+$('#path02_img0'+i).attr('src')+'\')');
-		$('#path02_slide0'+i).css('background-repeat', 'round');
-		$('#path02_slide0'+i).css('background-size', 'contain');
+		$('#path02_slide0'+i).css('background-repeat', 'no-repeat');
+		$('#path02_slide0'+i).css('background-size', 'cover');
 	}
 }
 
