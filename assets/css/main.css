@@ -342,6 +342,7 @@ input, select, textarea {
 			display: flex-inline;
 			width: 50%;
 			margin: 0 0 2em 0;
+			background:white;
 		}
 		
 	
