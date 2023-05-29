@@ -289,6 +289,28 @@ input, select, textarea {
 
 /* Row */
 
+	.back01{
+		margin-bottom: 3px;
+	    border-style: dashed;
+	    border-top-width: thick;
+	    border-color: #e7eae8;
+	    border-width: medium;
+	    border-left-width: thin;
+	    border-right-width: thin;
+		background: azure;
+	}
+	
+	.back02{
+		margin-bottom: 3px;
+	    border-style: dashed;
+	    border-top-width: thick;
+	    border-color: #e7eae8;
+	    border-width: medium;
+	    border-left-width: thin;
+	    border-right-width: thin;
+		background: honeydew;
+	}
+	
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1312,7 +1334,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 	
-			
+			.image.featured.contact {
+					display: flex-inline;
+					width: 25%;
+					margin: 0 0 2em 0;
+				}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1869,7 +1895,7 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: url("images/overlay.png");
+			/*background: url("images/overlay.png");*/
 			border-radius: 8px;
 		}
 
