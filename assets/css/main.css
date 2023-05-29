@@ -309,6 +309,7 @@ input, select, textarea {
 	    border-left-width: thin;
 	    border-right-width: thin;
 		background: honeydew;
+		/*background: linear-gradient(to top, white, #b1ddab33, white);*/
 	}
 	
 	.row {
@@ -1920,6 +1921,7 @@ input, select, textarea {
 			display: flex-inline;
 			width: 100%;
 			margin: 0 0 1em 0;
+			background: white;
 		}
 		
 		.image.featured-full span {
