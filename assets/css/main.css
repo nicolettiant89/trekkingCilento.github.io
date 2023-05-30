@@ -1906,7 +1906,9 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		
+		.image.featured-min:before{
+		background: url("images/overlay.png");
+		}
 		
 		
 		
