@@ -853,6 +853,12 @@ input, select, textarea {
 				box-sizing: border-box;
 				align-items: stretch;
 			}
+			
+			.image.featured.contact {
+					display: flex-inline;
+					width: 25%;
+					margin: 0 0 2em 0;
+				}
 
 				.row > * {
 					box-sizing: border-box;
@@ -932,6 +938,11 @@ input, select, textarea {
 
 				.row > .col-6-large {
 					width: 50%;
+				}
+				
+				.row > .col-6-large-contacts {
+					width: 100%;
+					padding: 0;
 				}
 
 				.row > .off-6-large {
@@ -1099,9 +1110,15 @@ input, select, textarea {
 				align-items: stretch;
 			}
 			
+			.image.featured.contact {
+					display: flex-inline;
+					width: 25%;
+					margin: 0 0 2em 0;
+				}
+			
 			.image.featured-min {
 				display: flex-inline;
-				width: 60%;
+				width: 40%;
 				margin: 2em 2em 2em 2em;
 				max-height: -webkit-fill-available;
 			}
@@ -1184,6 +1201,11 @@ input, select, textarea {
 
 				.row > .col-6-medium {
 					width: 50%;
+					padding: 0;
+				}
+				
+				.row > .col-6-medium-contacts {
+					width: 100%;
 					padding: 0;
 				}
 
@@ -3224,7 +3246,7 @@ input, select, textarea {
 			}
 
 				h2.major {
-					font-size: 1.25em;
+					font-size: 1.50em;
 					margin: 0 0 2em 0;
 				}
 
@@ -3367,6 +3389,12 @@ input, select, textarea {
 				font-size: 10pt;
 			}
 
+	}
+	
+	@media screen and (max-height: 400px) {
+		#titleBar {
+					background-color: white;
+				}
 	}
 	
 	

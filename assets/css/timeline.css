@@ -41,7 +41,7 @@ div.containerTimeline::-webkit-scrollbar {
   background-color: transparent;
   height: 4px;
   border-bottom: 1px solid #888;
-  width: 75%;
+  width: 90%;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-progressbar-fill {
   background-color: #198754;
@@ -75,7 +75,7 @@ div.containerTimeline::-webkit-scrollbar {
   line-height: 1.66;
   bottom: 0;
   z-index: 11;
-  width: 75%;
+  width: 90%;
   display: flex;
 }
 .swiper-container-wrapper--timeline .swiper-pagination-custom .swiper-pagination-switch {
