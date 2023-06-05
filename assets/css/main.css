@@ -856,7 +856,7 @@ input, select, textarea {
 			
 			.image.featured.contact {
 					display: flex-inline;
-					width: 25%;
+					width: 15%;
 					margin: 0 0 2em 0;
 				}
 
@@ -1112,7 +1112,7 @@ input, select, textarea {
 			
 			.image.featured.contact {
 					display: flex-inline;
-					width: 25%;
+					width: 15%;
 					margin: 0 0 2em 0;
 				}
 			
