@@ -3393,8 +3393,12 @@ input, select, textarea {
 	
 	@media screen and (max-height: 400px) {
 		#titleBar {
-					background-color: white;
+					background-color: transparent;
 				}
+		#titleBar .title{
+		
+				display:none;
+		}
 	}
 	
 	
